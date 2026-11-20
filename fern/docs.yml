@@ -1,0 +1,34 @@
+title: mem0 API
+
+instances:
+  - url: gh-shraddha-postman-mem0.docs.dev.buildwithfern.com
+
+navigation:
+  - page: Overview
+    path: docs/pages/overview.mdx
+  - page: Source and provenance
+    path: docs/pages/provenance.mdx
+  - api: mem0 API Reference
+    api-name: api
+    flattened: true
+    skip-slug: true
+    layout:
+      - section: Mem0 API Docs
+        slug: docs
+        collapsed: open-by-default
+        referenced-packages:
+          - docs
+        contents: []
+
+ai-examples:
+  enabled: false
+
+settings:
+  disable-search: true
+
+logo:
+  dark: docs/assets/avatar.png
+  light: docs/assets/avatar.png
+  height: 32
+
+favicon: docs/assets/avatar.png

@@ -1,0 +1,6 @@
+api:
+  specs:
+    - openapi: ../../specs/docs.json
+      namespace: docs
+      settings:
+        ignore-tags: true
